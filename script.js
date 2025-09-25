@@ -108,14 +108,6 @@ card.forEach((c) => {
 });
 
 
-for (let i = 0; i < skills.length; i++) {
-    skillList.innerHTML += `
-    <div class="skillCard">
-        <h4>${skills[i].name}</h4>
-        <p>${skills[i].naming}</p>
-    </div>
-    `;
-}
 
 let skillCard = document.querySelectorAll(".skillCard");
 skillCard.forEach((c) => {
@@ -140,3 +132,4 @@ mode.addEventListener("click", () => {
     modeSwitch.classList.toggle("switchOn");
     modeSwitch.classList.toggle("switchOff");
 });
+
